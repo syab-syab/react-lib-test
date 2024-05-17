@@ -5,16 +5,27 @@ import './App.css';
 // import Bootstrap from './components/Bootstrap';
 // import Leaflet from './components/Leaflet';
 import Loadersp from './components/Loadersp';
+import Typed from './components/Typed';
+// import AwesomeSld from './components/AwesomeSld';
+// import ImgGallery from './components/ImgGallery';
+import TextAreaAuto from './components/TextAreaAuto';
+import RandomUUID from './components/RandomUUID';
 
-// mate-css-test
-// "name": "mate-css-test"
 
 function App() {
+
+  
+
   return (
     <>
       {/* <Bootstrap /> */}
       {/* <Leaflet /> */}
       <Loadersp />
+      <Typed />
+      {/* <AwesomeSld /> */}
+      {/* <ImgGallery /> */}
+      <TextAreaAuto />
+      <RandomUUID />
     </>
   );
 }
